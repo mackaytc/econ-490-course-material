@@ -12,5 +12,5 @@ Links for the slides and course content from this week's lecture:
   - Introduces R + RStudio and defines basic terminology including packages and functions. 
   - Includes a list of commonly used Base-R functions (helpful for the first two coding activities). 
   - You can also find a copy of the slides we reviewed here: [Learning to Speak R Slides](https://github.com/mackaytc/econ-490-course-material/blob/main/week-1/Learning-to-Speak-R-Slides.pdf)
-- [ECON 490 Coding Activity 1.R](https://github.com/mackaytc/econ-490-course-material/blob/main/week-1/ECON 490 Coding Activity 1.R)
+- [ECON 490 Coding Activity 1.R]([econ-490-course-material/week-1/ECON-490-Coding-Activity-1.R at main · mackaytc/econ-490-course-material](https://github.com/mackaytc/econ-490-course-material/blob/main/week-1/ECON-490-Coding-Activity-1.R))
   - Our first coding activity using R. Make sure to review the assignments page on Canvas for instructions on getting access to R + RStudio.
