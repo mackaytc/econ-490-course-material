@@ -2,7 +2,7 @@
 
 Links for the slides and course content from this week's lecture: 
 
-- [ECON 490 Metrics Slides - Regression Review Pt 1](https://github.com/mackaytc/econ-490-course-material/blob/main/week-2/ECON 490 Metrics Slides - Regression Review Pt 1 (PDF).pdf)
+- [ECON 490 Metrics Slides - Regression Review Pt 1](https://github.com/mackaytc/econ-490-course-material/blob/main/week-2/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%201%20(PDF).pdf)
   - Covers metrics material for the week including an introduction to regression analysis. 
   - You can read more about the metrics material covered during this week's lecture here: [Chapter 4 - Describing Relationships | The Effect (theeffectbook.net)](https://theeffectbook.net/ch-DescribingRelationships.html)
 - We'll also review several handouts related to R:
