@@ -53,7 +53,7 @@ view(housing.data)
 
 # The zhvi_home_value variable stores Zillow's Home Value Index (ZHVI). This 
 # index represents the "typical" home price in a given year (we can interpret
-# it as similar to median home price although it's slightly different.   
+# it as similar to median home price although it's slightly different).   
 
 summary(housing.data$zhvi_home_value)
 
@@ -104,7 +104,7 @@ str(west.coast$state.name.factor)
 
 # The str() tells us our new variable is a factor with 3 levels (corresponding
 # to each of the 3 states in our West Coast data set). Variable types are also
-# listed in "Environment" Pane of RStudio - just click on the icon next to
+# listed in the "Environment" Pane of RStudio - just click on the icon next to
 # west.coast and take a look at state.name.factor.
 
 # Now, R knows that state_name is a factor variable, meaning that the values
@@ -117,7 +117,7 @@ str(west.coast$state.name.factor)
 
 table(west.coast$state.name.factor)
 
-# We can also is.factor() to double check that we've created a factor variable:
+# We can also use is.factor() to check that we've created a factor variable:
 
 is.factor(west.coast$state.name.factor)
 
@@ -162,7 +162,7 @@ str(west.coast$post.2014)
 
 
 # After creating post.2014.factor, use the is.factor() function to confirm that
-# its been coded correctly as a factor variable. Then, use table() to check how
+# it's been coded correctly as a factor variable. Then, use table() to check how
 # many observations are before / after 2014. 
 
 
@@ -292,10 +292,9 @@ group_by(west.coast, state.name.factor) %>%
 # Question 4: Regression with Factor Variables
 ################################################################################
 
-# We were introduced to the lm_robust() robust function during lecture. This 
-# function gives us robust standard errors and makes regression output easier
-# to work with. To get started using this function, we'll need to install 
-# the estimatr package first: 
+# The lm_robust() robust regression function gives us robust standard errors and
+# makes regression output easier to work with. To get started using this
+# function, we'll need to install the estimatr package first:
 
 install.packages("estimatr") # NOTE: Make this line a comment after running
 
